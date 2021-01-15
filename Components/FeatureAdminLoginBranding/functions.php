@@ -2,7 +2,6 @@
 
 namespace Flynt\Components\FeatureAdminLoginBranding;
 
-use Flynt\ComponentManager;
 use Flynt\Utils\Asset;
 
 add_action('login_enqueue_scripts', function () {
@@ -37,7 +36,7 @@ add_filter('login_headerurl', function () {
 });
 
 add_filter('login_headertext', function () {
-    return get_bloginfo('name') . ' – '. get_bloginfo('description');
+    return get_bloginfo('name') . ' – ' . get_bloginfo('description');
 });
 
 function insertLogoInlineCss($logoUrl)
