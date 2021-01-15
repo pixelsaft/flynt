@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "main": "index.js",
   "repository": "git@github.com:flyntwp/flynt.git",
-  "author": "bleech <hello@bleech.de>",
+  "author": "Pixelsaft <info@pixelsaft.de>",
   "license": "MIT",
   "scripts": {
     "checkVersion": "check-node-version --package -p",
